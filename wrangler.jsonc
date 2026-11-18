@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sk-prokh",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-06-01",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "kv_namespaces": [
+    { "binding": "SK","id": "7fcecd8c4c924cdc9a0cf4ce29b436bb" }
+  ]
+}
